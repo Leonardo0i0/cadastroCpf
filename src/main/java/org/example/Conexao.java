@@ -23,7 +23,7 @@ public class Conexao {
     }
 
     // Método main para teste da conexão
-    public static void main(String[] args) {
+    public static void main() {
         Connection conn = conectar();
 
         if (conn != null) {

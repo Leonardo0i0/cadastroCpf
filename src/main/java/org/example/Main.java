@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Conexao.conectar();
+        Conexao.main();
 
         Scanner teclado = new Scanner(System.in);
         ArrayList<Pessoa> listaPessoas = new ArrayList<>();
@@ -43,7 +43,7 @@ public class Main {
             }else {
                 opcao = false;
             }
-        } while (!opcao);
+        } while (opcao);
 
         teclado.close();
     }
