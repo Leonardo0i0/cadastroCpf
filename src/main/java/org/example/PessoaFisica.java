@@ -11,6 +11,10 @@ public class PessoaFisica extends Pessoa {
         return true;
     }
 
+    public String getCpf() {
+        return cpf;
+    }
+
     @Override
     public boolean cadastroCNPJ(String cnpj) {
         // Pessoa física não tem CNPJ
